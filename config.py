@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6912494273:AAFxNhoo3YtbEYRCVB67VTua76MfjlLyTSY")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22418774"))
@@ -19,29 +19,29 @@ APP_ID = int(os.environ.get("APP_ID", "22418774"))
 API_HASH = os.environ.get("API_HASH", "d8c8dab274f9a811814a6a96d044028e")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001896595751"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001827010142"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1341195107"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "2098973647"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://astroverse:astroverse1714@astroverse.usfccuu.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://unidrive:unidrive7714@unidrive.vvzr8rm.mongodb.net/?retryWrites=true&w=majority&appName=unidrive")
 DB_NAME = os.environ.get("DATABASE_NAME", "AstroVerse")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001776513379"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001700209396"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001940170903"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001974368690"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "⚡Hɪ ᴅᴜᴅᴇ.. {first}\n\nI ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ​\n​​Yᴏᴜ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ ᴘᴏᴡᴇʀᴇᴅ ʙʏ -​ @TeamUniverseOffical")
 try:
-    ADMINS=[2098973647]
-    for x in (os.environ.get("ADMINS", "6174626282").split()):
+    ADMINS=[5691800418]
+    for x in (os.environ.get("ADMINS", "6277299135").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -62,7 +62,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "​❗️ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ \n\nɪ ᴀᴍ ᴏɴʟʏ ᴀ ꜰɪʟᴇ-ꜱʜᴀʀɪɴɢ ʙᴏᴛ \n\nᴄʀᴇᴀᴛᴇᴅ ʙʏ - @TeamUniverseOffical"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5691800418)
+ADMINS.append(1554140080)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
