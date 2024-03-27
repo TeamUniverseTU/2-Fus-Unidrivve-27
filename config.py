@@ -10,30 +10,30 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6912494273:AAFxNhoo3YtbEYRCVB67VTua76MfjlLyTSY")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6912494273:AAFxNhVY")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "22418774"))
+APP_ID = int(os.environ.get("APP_ID", ""))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "d8c8dab274f9a811814a6a96d044028e")
+API_HASH = os.environ.get("API_HASH", "")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001827010142"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-142"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "2098973647"))
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://unidrive:unidrive7714@unidrive.vvzr8rm.mongodb.net/?retryWrites=true&w=majority&appName=unidrive")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://vvzr8rm.mongodb.rue&w=majority&appName=unidrive")
 DB_NAME = os.environ.get("DATABASE_NAME", "AstroVerse")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001512057749"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001883903877"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-157749"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-13877"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
